@@ -42,4 +42,7 @@ def convert_base(num, n):
     return new_num_string
 
 def factorial(num):
-    None
+    fact = 1
+    for x in range (1,num + 1):
+        fact = fact * x
+    return fact       
