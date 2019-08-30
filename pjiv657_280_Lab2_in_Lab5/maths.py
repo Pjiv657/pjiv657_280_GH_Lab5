@@ -42,5 +42,13 @@ def convert_base(num, n):
     return new_num_string
 
 def factorial(num):
+
     None
     #There is no code
+
+    res = 1
+    for x in range(1, num+1):
+        res = res * x
+    return res
+    
+
